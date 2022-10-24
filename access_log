@@ -68,3 +68,12 @@
 ::1 - - [24/Oct/2022:21:45:23 +0700] "GET /adminLTE/dist/js/adminlte.js.map HTTP/1.1" 200 179858
 ::1 - - [24/Oct/2022:21:45:23 +0700] "GET /adminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 311239
 ::1 - - [24/Oct/2022:21:45:23 +0700] "GET /adminLTE/dist/css/adminlte.min.css.map HTTP/1.1" 200 3846965
+::1 - - [24/Oct/2022:21:50:22 +0700] "GET / HTTP/1.1" 404 1263
+::1 - - [24/Oct/2022:21:51:05 +0700] "GET / HTTP/1.1" 404 1263
+::1 - - [24/Oct/2022:21:52:10 +0700] "GET / HTTP/1.1" 200 62721
+::1 - - [24/Oct/2022:21:52:10 +0700] "GET /dist/img/user1-128x128.jpg HTTP/1.1" 404 -
+::1 - - [24/Oct/2022:21:52:10 +0700] "GET /dist/img/user6-128x128.jpg HTTP/1.1" 404 -
+::1 - - [24/Oct/2022:21:52:10 +0700] "GET /dist/img/user5-128x128.jpg HTTP/1.1" 404 -
+::1 - - [24/Oct/2022:21:52:10 +0700] "GET /dist/img/user8-128x128.jpg HTTP/1.1" 404 -
+::1 - - [24/Oct/2022:21:52:10 +0700] "GET /dist/img/user7-128x128.jpg HTTP/1.1" 404 -
+::1 - - [24/Oct/2022:21:52:10 +0700] "GET /dist/img/user3-128x128.jpg HTTP/1.1" 404 -
