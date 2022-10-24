@@ -15,7 +15,7 @@ class Dashboard extends Controller
         $this->userModel = new UserModel();
     }
 
-    public function index()
+    /*public function index()
 	{
 		$data = [
 		    'title' => 'Dashboard Page',
@@ -24,6 +24,15 @@ class Dashboard extends Controller
         ];
 
 		return view('template/layout', $data);
-	}
+	}*/
+    public function index()
+    {
+        $header['title']='Dashboard';
+        echo view('partial/header',$header);
+        echo view('partial/top_menu');
+        echo view('partial/side_menu');
+        echo view('dashboard');
+        echo view('partial/footer');
+    }
 
 }
